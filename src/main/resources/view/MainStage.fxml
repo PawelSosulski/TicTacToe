@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="440.0" maxWidth="420.0" minHeight="440.0" minWidth="420.0" prefHeight="440.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/8.0.221" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TicTacToe.controllers.MainStageController">
+   <top>
+      <ButtonBar buttonMinWidth="90.0" maxHeight="40.0" minHeight="40.0" prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <buttons>
+          <Button fx:id="newGameButton" focusTraversable="false" mnemonicParsing="false" onAction="#handleStartButton" text="New game" />
+            <Button fx:id="optionsButton" focusTraversable="false" mnemonicParsing="false" onAction="#handleOptionsButton" text="Options" />
+        </buttons>
+         <BorderPane.margin>
+            <Insets right="200.0" />
+         </BorderPane.margin>
+      </ButtonBar>
+   </top>
+</BorderPane>
